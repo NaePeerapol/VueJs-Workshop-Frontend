@@ -186,7 +186,7 @@
               </v-list-item-action>
             </v-list-item>
           </v-list>
-          <v-alert v-else type="error"> ตะกร้าสินค้าว่าง </v-alert>
+          <v-alert v-else type="error"> ไม่มีสินค้าในตะกร้า!! </v-alert>
 
           <v-divider class="my-3" v-if="cart.length > 0"></v-divider>
 
